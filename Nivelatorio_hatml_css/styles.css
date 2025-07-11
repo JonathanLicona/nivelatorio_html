@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container_principal {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+}
+
+body {
+    background-image: url("ssests/bg-header-desktop.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+
+.img_encabezado {
+    display: grid;
+    place-items: center;
+    padding: 100px;
+}
+
+.titulo_principal {
+    display: grid;
+    place-items: center;
+    margin-bottom: 100px;
+}
+
+button {
+    background-color: rgb(25, 187, 187);
+    margin: 40px;
+    padding-top: 1cqh;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-radius: 40px;
+}
+
+.fragmentos {
+    display: grid;
+    place-items: center;
+}
+
+.imagen_computadora {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.centro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+}
+
+.informacion_tablet_telefono {
+    display: grid;
+    place-items: center;
+    padding: 100px;
+
+}
+
+.inf_optimiza {
+    display: grid;
+    place-items: center;
+}
+
+.info_ai {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.socios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fragmentos {
+    margin-bottom: 100px;
+}
+
+.informacion_busqueda {
+    min-height: 50px;
+}
+
+aside {
+    min-height: 50px;
+}
+
+.inf_ios_mac {
+    display: grid;
+    place-items: center;
+    padding: 100px;
+}
+footer{
+     display: grid;
+    place-items: center;
+}
+.logo{
+    display: grid;
+    place-items: center;
+}
